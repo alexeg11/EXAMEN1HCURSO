@@ -19,3 +19,4 @@ public class Main {
 		System.out.println(Arrays.toString(distinct));
 	}
 }
+//antes de empezar
