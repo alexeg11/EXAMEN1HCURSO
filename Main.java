@@ -5,8 +5,8 @@ public class Main {
 		Arrays.sort(arr);
 		int k = 1;
 		for (int i = 1; i < arr.length; i++) {
-			if (i == 1 || arr[i] != arr[i - 1]) {
-				arr[i++] = arr[i];
+			if (arr[i] != arr[i - 1]) {
+				arr[k++] = arr[i];
 			}
 		}
 		return Arrays.copyOf(arr, k);
@@ -19,4 +19,3 @@ public class Main {
 		System.out.println(Arrays.toString(distinct));
 	}
 }
-//antes de empezar
